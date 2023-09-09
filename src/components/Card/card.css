@@ -1,0 +1,18 @@
+.card{
+    border: 1px solid black;
+    height: 120px;  
+    width: 120px;
+    padding: 1rem;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    
+
+    
+
+}
+body{
+    background-color: black;
+}
