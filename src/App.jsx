@@ -1,13 +1,23 @@
-import Card from "./components/card/card"
-import Grid from "./components/grid/Grid"
 
-// impord Card
+import Grid from "./components/grid/Grid"
+import Navbar from "./components/Navbar/Navbar"
+import { Route, Routes,BrowserRouter } from "react-router-dom"
+import React from "react"
 
 function App() {
- 
+
   return (
     <>
-      <Grid numberOfCard={(9)} />
+   
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Navbar />}/>
+         
+          <Route path="/Grid" element={<Grid numberOfCard={(9)} />} />
+       
+      </Routes>
+    </BrowserRouter>
+
     </>
   )
 }

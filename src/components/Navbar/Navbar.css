@@ -1,0 +1,33 @@
+.nav{
+    color: aliceblue;
+    margin-left: 20px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn1{
+    margin-right: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    
+}
+.Home{
+    text-decoration: none;
+    color: beige;
+  
+}
+.play{
+    text-decoration: none;
+    color: beige;
+
+}
+.btn2{
+    height: 50px;
+    width: 100px;
+    background-color: black
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/ox-game-whiteboard-equal-result-59251026.jpg?w=768");
+}

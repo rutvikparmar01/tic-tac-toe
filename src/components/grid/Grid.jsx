@@ -2,6 +2,7 @@ import Card from "../card/card";
 import { useState } from "react";
 import isWinner from "../WinnerHelper/Helper";
 import './Grid.css'
+
 // import{TostContainer,toast} from 'react-toastify'
 
 
@@ -20,6 +21,7 @@ function Grid({ numberOfCard }) {
         if (win) {
             setWinner(win)
         }
+        
         setBord([...bord])
         setTurn(!turn)
     }
@@ -30,6 +32,7 @@ function Grid({ numberOfCard }) {
        
 
     }
+    
     return (
         <div className="TurnWrapper">
             {
